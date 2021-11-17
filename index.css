@@ -1,0 +1,84 @@
+/* Background [body]*/
+#background{
+    background-color: rgb(187, 247, 251);  
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -user-select: none;
+}
+/* Navbar*/
+.navbar{
+    background-color: rgba(0, 255, 255, 0.424);
+    border-radius: 50px;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    border: 1px solid
+    
+
+}
+
+.navbar li{
+float:left; 
+margin: 10px 30px;
+list-style-type:none;
+}
+
+.navbar li a{
+color:black;
+text-decoration:none;
+font-family: Roboto;
+}
+
+.navbar li a:hover{
+   font-weight:bold;
+   text-shadow: 1000rem;
+   background-color: rgb(225, 245, 246);
+   opacity: 10;
+   padding :10px;
+   border-radius: 500px;
+}
+ /*Background [BOX]*/
+#box{
+    background-color: rgba(13, 228, 243, 0.842);
+    justify-content: center;
+    border-radius :40px;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    width :1700px;
+    height : 700px;
+    box-shadow: 10px 10px 15px;
+    align-items: center;
+    justify-content: center;
+    filter: opacity(50%);
+    display: flex;
+}
+ /*Images*/
+#jobsimg{
+width: 450px;
+height: auto;
+clip-path: circle();
+box-shadow: 10px 10px;
+filter :drop-shadow(300px 400px 5 px);
+position: absolute;
+bottom: 460px;
+left: 1300px;
+
+}
+
+#boxtext{
+    position:absolute;
+    bottom: 650px;
+    left: 230px;
+    
+}
+#boxtext2{
+    position:absolute;
+    bottom: 350px;
+    left: 250px;
+    
+}
